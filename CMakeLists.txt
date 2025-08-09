@@ -10,7 +10,7 @@ include_directories(src)
 
 add_executable(
         smart_order_router src/main.cpp
-        src/config/venue-loader.cpp)
+        src/config/VenueLoader.cpp)
 
 target_compile_definitions(smart_order_router PRIVATE ASIO_STANDALONE)
 

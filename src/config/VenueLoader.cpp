@@ -1,5 +1,5 @@
-#include "models/venue.hpp"
-#include "config/venue-loader.hpp"
+#include "models/Venue.hpp"
+#include "config/VenueLoader.hpp"
 
 #include "nlohmann/json.hpp"
 
