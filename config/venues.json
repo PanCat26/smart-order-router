@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "NASDAQ",
+    "multicast": "239.1.1.10",
+    "port": 5000,
+    "fee": 0.0003,
+    "rebate": 0.0000,
+    "latency_us": 120
+  },
+  {
+    "id": 1,
+    "name": "ARCA",
+    "multicast": "239.1.1.11",
+    "port": 5001,
+    "fee": 0.0001,
+    "rebate": 0.0001,
+    "latency_us": 100
+  }
+]
