@@ -11,4 +11,6 @@ add_executable(
         smart_order_router src/main.cpp
         src/venue-utility.cpp)
 
+target_compile_definitions(smart_order_router PRIVATE ASIO_STANDALONE)
+
 add_compile_options(-Wall -Wextra -Wpedantic -Wno-unused-parameter)
