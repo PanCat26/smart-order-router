@@ -10,6 +10,8 @@ int main()
     {
         std::vector<Venue> venues = loadVenues("config/venues.json");
 
+        validateVenues(venues);
+
         spdlog::info("Loaded {} venues:", venues.size());
         for (const Venue& v : venues)
         {

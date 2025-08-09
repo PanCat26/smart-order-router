@@ -16,3 +16,5 @@ struct Venue
 };
 
 std::vector<Venue> loadVenues(const std::string& filepath);
+
+void validateVenues(const std::vector<Venue>& venues);
