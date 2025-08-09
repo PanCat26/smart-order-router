@@ -1,6 +1,6 @@
 #pragma once
 
-#include "model/venue.hpp"
+#include "models/venue.hpp"
 
 #include <string>
 #include <vector>

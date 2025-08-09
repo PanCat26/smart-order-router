@@ -1,4 +1,4 @@
-#include "model/venue.hpp"
+#include "models/venue.hpp"
 #include "config/venue-loader.hpp"
 
 #include "nlohmann/json.hpp"
