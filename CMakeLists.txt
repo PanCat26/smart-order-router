@@ -7,6 +7,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(lib)
 
-add_executable(smart_order_router main.cpp)
+add_executable(smart_order_router src/main.cpp)
 
 add_compile_options(-Wall -Wextra -Wpedantic -Wno-unused-parameter)
