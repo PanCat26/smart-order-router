@@ -1,3 +1,4 @@
+#include "model/venue.hpp"
 #include "config/venue-loader.hpp"
 
 #include <spdlog/spdlog.h>

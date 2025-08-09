@@ -1,19 +1,9 @@
 #pragma once
 
-#include <cstdint>
+#include "model/venue.hpp"
+
 #include <string>
 #include <vector>
-
-struct Venue
-{
-    uint8_t     id;
-    std::string name;
-    std::string multicast;
-    uint16_t    port;
-    double      fee;
-    double      rebate;
-    uint32_t    latency_us; // Simulated latency in microseconds
-};
 
 std::vector<Venue> loadVenues(const std::string& filepath);
 

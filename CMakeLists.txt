@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(lib)
+include_directories(src)
 
 add_executable(
         smart_order_router src/main.cpp
