@@ -1,7 +1,8 @@
-#include <iostream>
+#include <spdlog/spdlog.h>
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    spdlog::info("Smart Order Router started.");
+
     return 0;
 }
